@@ -1,40 +1,33 @@
 using UnityEngine;
 
-public class EnemyController : MonoBehaviour
+public class EnemyController : CharacterFree
 {
-    [SerializeField] private float speed = 4f;
     [SerializeField] private float visionRange = 2f;
     [SerializeField] private string playerTag = "Player";
-    [SerializeField] private Rigidbody2D rigidBody = null;
     [SerializeField] private PlayerController player = null;
-    private Vector2 direction;
     private bool isFollowPlayer;
     
-    // Start is called before the first frame update
-    void Start()
+    private void Start()
     {
-        
+        player = FindObjectOfType<PlayerController>();
     }
 
     // Update is called once per frame
-    void Update()
+    private void Update()
     {
+        if (player == null) return;
+        
         direction = player.transform.position - transform.position;
         var distance = direction.magnitude;
         direction.Normalize();
         isFollowPlayer = distance < visionRange;
     }
-
-    private void FixedUpdate()
-    { 
-        MoveCharacter();
-    }
     
-    private void MoveCharacter()
+
+    protected override void MoveCharacter()
     {
         if (!isFollowPlayer) return;
         
-        var position = (Vector2)transform.position + (Time.deltaTime * speed * direction); 
-        rigidBody.MovePosition(position);
+        base.MoveCharacter();
     }
 }
