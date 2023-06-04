@@ -1209,7 +1209,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 55009ac490ba444bbafb8145a67d62ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 2.8
+  speed: 5.84
   rigidBody: {fileID: 812467644775853311}
 --- !u!61 &1091383546675532235
 BoxCollider2D:
@@ -1557,7 +1557,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 2
   rigidBody: {fileID: 7487634226944299905}
-  visionRange: 4
+  visionRange: 1
   player: {fileID: 0}
 --- !u!4 &6302219785601061843
 Transform:
@@ -1567,7 +1567,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3732040266151880095}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.87, y: -2.64, z: 0}
+  m_LocalPosition: {x: -0.15, y: -0.468, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
