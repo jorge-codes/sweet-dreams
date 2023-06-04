@@ -102,32 +102,7 @@ public class CharacterAnimationController : MonoBehaviour
             spriteRenderer.sprite = imgSide;
             spriteRenderer.flipX = direction.x < 0f;
         }
-        // if (slope <= slopeThreshold)
-        // {
-        //     spriteRenderer.sprite = imgSide;
-        //     spriteRenderer.flipX = direction.x < 0f;
-        // }
-        // else
-        // {
-        //     spriteRenderer.sprite = direction.y < 0 ? imgUp : imgDown;
-        // }
-        // switch (direction)
-        // {
-        //     case Vector2 v when v.Equals(Vector2.left):
-        //         spriteRenderer.sprite = imgSide;
-        //         spriteRenderer.flipX = true;
-        //         break;
-        //     case Vector2 v when v.Equals(Vector2.right):
-        //         spriteRenderer.sprite = imgSide;
-        //         spriteRenderer.flipX = false;
-        //         break;
-        //     case Vector2 v when v.Equals(Vector2.down):
-        //         spriteRenderer.sprite = imgDown;
-        //         break;
-        //     case Vector2 v when v.Equals(Vector2.up):
-        //         spriteRenderer.sprite = imgUp;
-        //         break;
-        // }
+        
     }
 
     protected void RunDynamicAnimation(Vector2 direction)
