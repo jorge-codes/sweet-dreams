@@ -10,14 +10,15 @@ public class CharacterAnimationController : MonoBehaviour
 
     [Space(20), Header("References")]
     [SerializeField] private SpriteRenderer spriteRenderer = null;
-    [SerializeField] private CharacterFree character = null;
     [SerializeField] private Animator animator = null;
+    private CharacterFree character = null;
 
     private void Awake()
     {
         character = !character ? GetComponent<CharacterFree>() : character;
-        imgPrimary = spriteRenderer.sprite;
-        animator = GetComponent<Animator>();
+        animator = !animator ? GetComponent<Animator>() : animator;
+        
+        spriteRenderer.sprite = imgPrimary;
     }
 
     private void OnEnable()
