@@ -1,7 +1,7 @@
 using System;
 using UnityEngine;
 
-public abstract class CharacterFree : MonoBehaviour
+public class CharacterFree : MonoBehaviour
 {
     public event Action<Vector2> DirectionChanged; 
 
