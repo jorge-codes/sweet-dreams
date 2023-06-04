@@ -1,0 +1,71 @@
+-===================================================================-
+Thank you for purchasing the Breezy's Final Quest album!
+-===================================================================-
+
+This is a chiptune asset pack created by me, inspired by the classic
+Final Fantasy franchise. It's my first 16 bit style pack and uses
+a bass and drum focus for many of the tracks in a similar style to
+Nobuo Uematsu's earlier Final Fantasy tracks.
+
+These tracks cover a variety of situations and environments, from
+world maps, to sad moments and battles, and would fit most fantasy
+styled RPGs, particularly JRPGs.
+
+-=================================================================-
+                          Usage Rights
+-=================================================================-
+
+This soundtrack can be used in both commercial and non-commercial 
+projects under these conditions.
+
+1 - Credit is given to me, the author, in a similar size, style
+and duration to that of the game's creator, in either a credits
+screen in game and on the page's about section.
+
+2 - You notify me that you are using it for a project on either
+the album's comment section, twitter DM or itch.io DM. Please
+provide a link to your project.
+
+@ryanandbreezy (twitter)
+
+3 - If requested, please provide a video or gif of the game so
+that I may use it on social media to promote the album.
+
+All rights are reserved by me, and the music on the album may
+not be copied, resold as an OST, uploaded to streaming sites,
+edited or remixed.
+
+-==============================================================-
+                       Looping Instructions
+-==============================================================-
+
+The tracks should all seemlessly loop, and tracks with intros
+are seperated into different files for the intro and loopable
+song. If the songs do not loop correctly in programs such as 
+Unity etc, you can trim a few milliseconds off of the end.
+
+-==============================================================-
+                       Message from me
+-==============================================================-
+
+Thanks again for downloading/purchasing the asset pack! I hope
+you find it useful for your games or projects in some way and
+I'm very much looking forward to seeing what you create!
+
+Suddenly this little asset pack selection has grown into 4 packs!
+Two of them are free on my itch.io page while the other pack for 
+sale is the Castlevania styled pack. For the next pack I'll be
+exploring 32bit midi styled horror similar to Resident Evil before
+going back to 8bit with a Capcom SHMUP styled pack.
+
+Do you have a pack you'd like to see? Please feel free to message
+me!
+
+If you're interested, I'm also available for custom soundtrack
+and commissions. Please message me for more details and the
+prices.
+
+Hope you have a great day, happy game making!
+
+Take it easy breezy!
+RyanAvx
