@@ -1,4 +1,5 @@
 using System;
+using Unity.Collections;
 using UnityEngine;
 
 [RequireComponent(typeof(CharacterFree))]
@@ -10,8 +11,8 @@ public class CharacterAnimationController : MonoBehaviour
     [SerializeField] private Sprite imgUp = null;
 
     [Space(10), Header("References")]
-    [SerializeField] private SpriteRenderer spriteRenderer = null;
-    [SerializeField] private Animator animator = null;
+    [SerializeField] private SpriteRenderer spriteRenderer = null; 
+    private Animator animator = null;
     private CharacterFree character = null;
 
     [Space(10), Header("Walk Triggers")]
@@ -68,8 +69,6 @@ public class CharacterAnimationController : MonoBehaviour
 
     protected void RunStaticAnimation(Vector2 direction)
     {
-        // if (direction == Vector2.zero) spriteRenderer.sprite = imgPrimary;
-        // spriteRenderer.flipX = false;
         switch (direction)
         {
             case Vector2 v when v.Equals(Vector2.left):
