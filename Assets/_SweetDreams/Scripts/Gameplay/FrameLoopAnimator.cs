@@ -1,4 +1,3 @@
-using System;
 using UnityEngine;
 
 public class FrameLoopAnimator : MonoBehaviour
@@ -16,6 +15,7 @@ public class FrameLoopAnimator : MonoBehaviour
     {
         const float seconds = 1f;
         delta = seconds / speed;
+        timer -= delay;
     }
     
 

@@ -2,22 +2,23 @@ using UnityEngine;
 
 public class PlayerController : CharacterFree
 {
-    
-    // Start is called before the first frame update
-    void Start()
+    [SerializeField] private bool isMovable = true;
+    public bool IsMovable => isMovable;
+
+    public void SetMobility(bool move)
     {
-        
+        isMovable = move;
     }
 
-    // Update is called once per frame
     private void Update()
     {
-        GetInputFromPlayer();
+        HandleInput();
     }
 
-    // TODO: Change function name because it handles input only
-    private void GetInputFromPlayer()
+    private void HandleInput()
     {
+        if (!isMovable) return;
+        
         direction.x = Input.GetAxis("Horizontal");
         direction.y = Input.GetAxis("Vertical");
         direction.Normalize();
