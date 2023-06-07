@@ -1,0 +1,344 @@
+fileFormatVersion: 2
+guid: d0f357b79163ed546acc1cda712de9fe
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2514745643849811336
+    second: Arcade_P1_Stick-Down_0
+  - first:
+      213: 2928557188551166280
+    second: Arcade_P1_Stick-Down_1
+  - first:
+      213: -292758233722576717
+    second: Arcade_P1_Stick-Down_2
+  - first:
+      213: 8890460227970489390
+    second: Arcade_P1_Stick-Down_3
+  - first:
+      213: -5411927151583083554
+    second: Arcade_P1_Stick-Down_4
+  - first:
+      213: 4741778499329986864
+    second: Arcade_P1_Stick-Down_5
+  - first:
+      213: -8177211845907212364
+    second: Arcade_P1_Stick-Down_6
+  - first:
+      213: -5825881304770656351
+    second: Arcade_P1_Stick-Down_7
+  - first:
+      213: 7887887730514324495
+    second: Arcade_P1_Stick-Down_8
+  - first:
+      213: 4940673596165318936
+    second: Arcade_P1_Stick-Down_9
+  - first:
+      213: 862051472642971952
+    second: Arcade_P1_Stick-Down_10
+  - first:
+      213: -986444770316511288
+    second: Arcade_P1_Stick-Down_11
+  - first:
+      213: 7045078856089258080
+    second: Arcade_P1_Stick-Down_12
+  - first:
+      213: 3610695959133684973
+    second: Arcade_P1_Stick-Down_13
+  - first:
+      213: 150983303866500582
+    second: Arcade_P1_Stick-Down_14
+  - first:
+      213: -2930929147841860610
+    second: Arcade_P1_Stick-Down_15
+  - first:
+      213: 6712041191297151317
+    second: Arcade_P1_Stick-Down_16
+  - first:
+      213: -5541914368047860083
+    second: Arcade_P1_Stick-Down_17
+  - first:
+      213: 6001889901833025395
+    second: Arcade_P1_Stick-Down_18
+  - first:
+      213: 2565063596171094231
+    second: Arcade_P1_Stick-Down_19
+  - first:
+      213: -5770372817097084913
+    second: Arcade_P1_Stick-Down_20
+  - first:
+      213: -7515207312668199816
+    second: Arcade_P1_Stick-Down_21
+  - first:
+      213: -3551320700379330397
+    second: Arcade_P1_Stick-Down_22
+  - first:
+      213: -3211128789262639992
+    second: Arcade_P1_Stick-Down_23
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 1
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 1
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 1
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 1
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Arcade_P1_Stick-Down_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8850122e6db26e220800000000000000
+      internalID: 2514745643849811336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade_P1_Stick-Down_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84942003f3354a820800000000000000
+      internalID: 2928557188551166280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade_P1_Stick-Down_2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b025e100f9efebf0800000000000000
+      internalID: -292758233722576717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade_P1_Stick-Down_3
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2c5be14972416b70800000000000000
+      internalID: 8890460227970489390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade_P1_Stick-Down_4
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed34993ede8f4e4b0800000000000000
+      internalID: -5411927151583083554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade_P1_Stick-Down_5
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03116201c6e2ec140800000000000000
+      internalID: 4741778499329986864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Arcade_P1_Stick-Down_0: 2514745643849811336
+      Arcade_P1_Stick-Down_1: 2928557188551166280
+      Arcade_P1_Stick-Down_2: -292758233722576717
+      Arcade_P1_Stick-Down_3: 8890460227970489390
+      Arcade_P1_Stick-Down_4: -5411927151583083554
+      Arcade_P1_Stick-Down_5: 4741778499329986864
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

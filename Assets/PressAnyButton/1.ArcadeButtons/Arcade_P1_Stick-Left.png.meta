@@ -1,0 +1,344 @@
+fileFormatVersion: 2
+guid: 0b323de5f71817c4daa5308f843f2190
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6917911661604770108
+    second: Arcade_P1_Stick-Left_0
+  - first:
+      213: -5012677716887944342
+    second: Arcade_P1_Stick-Left_1
+  - first:
+      213: 3676391270108139038
+    second: Arcade_P1_Stick-Left_2
+  - first:
+      213: -8726653337796697448
+    second: Arcade_P1_Stick-Left_3
+  - first:
+      213: 8960184557071250835
+    second: Arcade_P1_Stick-Left_4
+  - first:
+      213: 1990659281090799977
+    second: Arcade_P1_Stick-Left_5
+  - first:
+      213: -7149708371761594635
+    second: Arcade_P1_Stick-Left_6
+  - first:
+      213: 4580675219895407419
+    second: Arcade_P1_Stick-Left_7
+  - first:
+      213: -8968839432381837361
+    second: Arcade_P1_Stick-Left_8
+  - first:
+      213: 5015306770556764179
+    second: Arcade_P1_Stick-Left_9
+  - first:
+      213: 6662075828929721941
+    second: Arcade_P1_Stick-Left_10
+  - first:
+      213: -5695736419831822493
+    second: Arcade_P1_Stick-Left_11
+  - first:
+      213: 5146440885571092054
+    second: Arcade_P1_Stick-Left_12
+  - first:
+      213: 3491407051323164417
+    second: Arcade_P1_Stick-Left_13
+  - first:
+      213: -7987651765705335580
+    second: Arcade_P1_Stick-Left_14
+  - first:
+      213: 3302672963318432045
+    second: Arcade_P1_Stick-Left_15
+  - first:
+      213: -9090285695884937150
+    second: Arcade_P1_Stick-Left_16
+  - first:
+      213: -7336823701201895225
+    second: Arcade_P1_Stick-Left_17
+  - first:
+      213: 380548730368842704
+    second: Arcade_P1_Stick-Left_18
+  - first:
+      213: 4003042200498733134
+    second: Arcade_P1_Stick-Left_19
+  - first:
+      213: -7191532928892146575
+    second: Arcade_P1_Stick-Left_20
+  - first:
+      213: 5819405203415133806
+    second: Arcade_P1_Stick-Left_21
+  - first:
+      213: 2106718310681421821
+    second: Arcade_P1_Stick-Left_22
+  - first:
+      213: -7159748597563972011
+    second: Arcade_P1_Stick-Left_23
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 1
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 1
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 1
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 1
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Arcade_P1_Stick-Left_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cee3861ff3aeff90800000000000000
+      internalID: -6917911661604770108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade_P1_Stick-Left_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a63c06fbc246f6ab0800000000000000
+      internalID: -5012677716887944342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade_P1_Stick-Left_2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1e842eb16a250330800000000000000
+      internalID: 3676391270108139038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade_P1_Stick-Left_3
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 892a6aa6603b4e680800000000000000
+      internalID: -8726653337796697448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade_P1_Stick-Left_4
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3953c2ea168f85c70800000000000000
+      internalID: 8960184557071250835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade_P1_Stick-Left_5
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9696046b11e30ab10800000000000000
+      internalID: 1990659281090799977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Arcade_P1_Stick-Left_0: -6917911661604770108
+      Arcade_P1_Stick-Left_1: -5012677716887944342
+      Arcade_P1_Stick-Left_2: 3676391270108139038
+      Arcade_P1_Stick-Left_3: -8726653337796697448
+      Arcade_P1_Stick-Left_4: 8960184557071250835
+      Arcade_P1_Stick-Left_5: 1990659281090799977
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
