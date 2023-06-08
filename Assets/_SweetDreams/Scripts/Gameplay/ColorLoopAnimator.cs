@@ -1,12 +1,17 @@
 using UnityEngine;
 
-public class FrameLoopAnimator : MonoBehaviour
+// TODO: rethink this class to improve abstraction
+// The same thing is done in FrameLoopAnimator.cs and it's
+// possible that this can be improved further
+
+public class ColorLoopAnimator : MonoBehaviour
 {
     [SerializeField] private float delay = 0f;
     [SerializeField] private float speed = 2f;
     [SerializeField] private SpriteRenderer spriteRenderer = null;
-    [Space(4), Header("Sprite List")]
-    [SerializeField] private Sprite[] sprites;
+    [Space(4), Header("Color List")]
+    [SerializeField]
+    private Color[] colors;
     private float delta = 0f;
     private float timer = 0f;
     private int index = 0;
@@ -17,25 +22,20 @@ public class FrameLoopAnimator : MonoBehaviour
         delta = seconds / speed;
         timer -= delay;
     }
-    
 
     private void Update()
     {
-        // TODO: re-think this formula
+        // TODO: rethink this formula (same for FrameLoopAnimator.cs)
         // there is a way to do this with x mod y
-        // but I cannot solve it right now
 
         timer += Time.deltaTime;
         if (timer > delta)
         {
             index += 1;
-            index = index >= sprites.Length ? 0 : index;
+            index = index >= colors.Length ? 0 : index;
             timer -= delta;
         }
-        spriteRenderer.sprite = sprites[index];
-
+        spriteRenderer.color = colors[index];
 
     }
-
-
 }
