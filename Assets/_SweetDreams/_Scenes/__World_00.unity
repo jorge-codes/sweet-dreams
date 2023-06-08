@@ -9452,7 +9452,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5470781432597884793, guid: 2a4cc3a38f6ec4a44a12fa35cf0d0cb0, type: 3}
       propertyPath: isEmpowered
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8366781396364386248, guid: 2a4cc3a38f6ec4a44a12fa35cf0d0cb0, type: 3}
       propertyPath: m_Name
