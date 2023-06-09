@@ -41,8 +41,6 @@ public class ProjectileController : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D col)
     {
-        // if (col.gameObject.tag == "Player") return;
-        
         Kill();
     }
 }

@@ -20,6 +20,11 @@ public class CharacterFree : MonoBehaviour
     public Vector2 Velocity => velocity;
     public Vector2 Direction => direction;
 
+    public virtual void Kill()
+    {
+        Destroy(gameObject);
+    }
+
     protected virtual void Awake()
     {
         prevVelocity = velocity = Vector2.zero;
