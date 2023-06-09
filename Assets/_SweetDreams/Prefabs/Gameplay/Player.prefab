@@ -387,7 +387,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e611a96458cf48508b94a9d9ee7751e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  projectileSpeed: 8
+  projectileSpeed: 12
   player: {fileID: 5470781432597884793}
   prefab: {fileID: 5180340692276185901, guid: 638782920b4a745259a95dca069f3ab0, type: 3}
   mountPoint: {fileID: 3145326388325617624}

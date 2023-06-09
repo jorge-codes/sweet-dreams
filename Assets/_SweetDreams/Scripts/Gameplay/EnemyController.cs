@@ -32,7 +32,7 @@ public class EnemyController : CharacterFree
 
     private void OnTriggerEnter2D(Collider2D col)
     {
-        if (col.gameObject.CompareTag("ProjectilePlayer"))
+        if (col.gameObject.CompareTag("PowerPlayer"))
         {
             Kill();
         }

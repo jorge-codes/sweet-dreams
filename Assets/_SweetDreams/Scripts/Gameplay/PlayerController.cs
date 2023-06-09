@@ -17,7 +17,6 @@ public class PlayerController : CharacterFree
     {
         isMovable = move;
         velocity = Vector2.zero;
-        print($"isMovable: {isMovable.ToString()}");
     }
 
     public void SetPower(bool power)
