@@ -1,4 +1,3 @@
-using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 using UnityEngine.Events;
@@ -6,27 +5,27 @@ using UnityEngine.Events;
 public class TimerController : MonoBehaviour
 {
     [SerializeField] private TimerEvent[] events;
-    private List<TimerEvent> eventList;
-
-    void Start()
-    {
-        eventList = new List<TimerEvent>(events).OrderBy(e => e.time).ToList();
-    }
+    private float timer = 0f;
 
     void Update()
     {
-        RunEvents();
+        timer += Time.deltaTime;
+        RunEvents(timer);
     }
 
-    private void RunEvents()
+    private void RunEvents(float timeElapsed)
     {
-        foreach (var e in events.Where(e => !e.triggered))
+        var pendingEvents = events.Where(e => !e.triggered);
+        gameObject.SetActive(pendingEvents.Any());
+
+        foreach (var e in pendingEvents)
         {
-            if (e.time > Time.timeSinceLevelLoad) return;
+            if (e.time > timeElapsed) return;
             
             e.events.Invoke();
             e.triggered = true;
         }
+        
     }
 }
 

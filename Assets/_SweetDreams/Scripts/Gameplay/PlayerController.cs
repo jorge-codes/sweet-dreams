@@ -4,7 +4,7 @@ using UnityEngine;
 public class PlayerController : CharacterFree
 {
     public event Action<Vector2> CharacterAttacked;
-    
+
     [SerializeField] private bool isMovable = true;
     [SerializeField] private bool isEmpowered = true;
     [SerializeField, Range(0.2f, 3f)] private float powerCooldownTime = 0.4f;
@@ -16,6 +16,8 @@ public class PlayerController : CharacterFree
     public void SetMobility(bool move)
     {
         isMovable = move;
+        velocity = Vector2.zero;
+        print($"isMovable: {isMovable.ToString()}");
     }
 
     public void SetPower(bool power)
@@ -38,9 +40,9 @@ public class PlayerController : CharacterFree
     {
         if (!isMovable) return;
         
-        direction.x = Input.GetAxis("Horizontal");
-        direction.y = Input.GetAxis("Vertical");
-        direction.Normalize();
+        velocity.x = Input.GetAxis("Horizontal");
+        velocity.y = Input.GetAxis("Vertical");
+        velocity.Normalize();
     }
 
     private void HandleInputAttack()

@@ -16,9 +16,9 @@ public class EnemyController : CharacterFree
     {
         if (player == null) return;
         
-        direction = player.transform.position - transform.position;
-        var distance = direction.magnitude;
-        direction.Normalize();
+        velocity = player.transform.position - transform.position;
+        var distance = velocity.magnitude;
+        velocity.Normalize();
         isFollowPlayer = distance < visionRange;
     }
     
