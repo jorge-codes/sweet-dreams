@@ -1,7 +1,8 @@
 using System.Collections;
+using TMPro;
+using UnityEditor;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-using UnityEngine.Serialization;
 using UnityEngine.UI;
 
 public class WelcomeView : MonoBehaviour
@@ -12,6 +13,9 @@ public class WelcomeView : MonoBehaviour
     [SerializeField] private AudioClip clipButtonCredits = null;
     [SerializeField] private AudioClip clipButtonCancel = null;
     [SerializeField] private AudioSource audioSource = null;
+
+    [SerializeField] private TextMeshProUGUI labelVersion = null;
+    [SerializeField] private string labelVersionFormat = "v{0}";
 
     [Space(10), Header("Mini Views")]
     [SerializeField] private GameObject viewTitle = null;
@@ -32,6 +36,11 @@ public class WelcomeView : MonoBehaviour
         buttonPlay.onClick.RemoveAllListeners();
         buttonCredits.onClick.RemoveAllListeners();
         buttonBack.onClick.RemoveAllListeners();
+    }
+
+    private void Start()
+    {
+        labelVersion.text = GetVersionString(labelVersionFormat);
     }
 
     private void OnButtonPlayPressed()
@@ -68,6 +77,12 @@ public class WelcomeView : MonoBehaviour
     {
         viewCredits.SetActive(false);
         viewTitle.SetActive(true);
+    }
+
+    private string GetVersionString(string format)
+    {
+        var version = Application.version;
+        return string.Format(format, version);
     }
 
 
